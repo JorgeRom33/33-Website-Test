@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    background-color:#1C1C24
+}
+.logo{
+    width:48px;
+    height:autopx;
+    position:relative;
+}
+.topleftside{
+    justify-content:left;
+    display:flex;   
+}
+.tlefttext{
+    color:#ffffff;
+    font-size:24px;
+    font-family: "varelaroundregular";
+    font-weight: 400;
+    line-height: 1;
+    margin:0;
+    transform: translateY(13px) translateX(5px);
+}
+.toprightside{
+    justify-content:right;
+    display:flex;
+    gap:20px;
+    font-family: "varelaroundregular";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+    margin:0;
+    transform: translateY(1px) translateX(265px);
+    color:#ffffff;
+}
+@font-face{
+    font-family: "varelaroundregular";
+    src: url(./fonts/varelaroundregular.woff2) format("woff2")
+}
+.header{
+    background-color:#FF1F2E;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding: 5px;
+    height: 48px;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+.banner1{
+    width:64%;
+    height:auto;
+    padding:18%;
+    transform: translateY(-18%);
+}
+.ad1{
+    width:9%;
+    height:auto;
+    padding:9%;
+    transform: translateY(-10%);
+    height: 100%;
+}
